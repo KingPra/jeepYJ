@@ -1,0 +1,104 @@
+$jeep: #d1c196;
+$bg: green;
+
+body {
+  background: $jeep;
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  background: $bg;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.grille {
+  width: 450px;
+  height: 200px;
+  border-radius: 30px;
+  background: $jeep;
+  position: relative;
+  top: 25%;
+  left: 12%;
+}
+
+.grille-cutout {
+  width: 75px;
+  height: 300px;
+  border-radius: 50%;
+  background: $bg;
+  display: inline-block;
+}
+
+.gc-left {
+  position: absolute;
+  top: 15%;
+  left: -5%;
+  transform: rotate(-20deg);
+}
+
+.gc-right {
+  position: absolute;
+  top: 15%;
+  right: -5%;
+  transform: rotate(20deg);
+}
+
+.headlights {
+  width: 75px;
+  height: 60px;
+  border-radius: 5px;
+  background: white;
+}
+
+.hl-left {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.hl-right {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+.turn {
+  width: 40px;
+  height: 30px;
+  background: orange;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.t-left {
+  bottom: 35%;
+  left: 13%;
+}
+
+.t-right {
+  bottom: 35%;
+  right: 13%;
+}
+
+.slots {
+  position: absolute;
+  top: 10%;
+  left: 24%;
+  height: 175px;
+  width: 235px;
+}
+
+.slot {
+  display: inline-block;
+  width: 25px;
+  height: 170px;
+  background: black;
+  border-radius: 8px;
+  position: relative;
+  left: 1%;
+  margin: 0 2px;
+}
